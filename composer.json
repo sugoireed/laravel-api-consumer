@@ -16,7 +16,7 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "license": "Apache",
+    "license": "MIT",
     "authors": [
         {
             "name": "James Muindi",
