@@ -5,5 +5,5 @@
 ## Installation
 
 ```bash
-composer require devos/api-consumer 0.2.*
+composer require devos/api-consumer
 ```
