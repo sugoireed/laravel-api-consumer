@@ -1,8 +1,5 @@
 {
     "name": "devos/api-consumer",
-    "require": {
-        "laravel/framework": "^5.2"
-    },
     "require-dev": {
         "phpunit/phpunit": "~4.7",
         "orchestra/testbench": "~3.0",
