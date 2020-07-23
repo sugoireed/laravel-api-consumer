@@ -9,14 +9,14 @@ class LaravelServiceProvider extends BaseProvider {
 
     public function register()
     {
-
+         $this->app->bind('apiconsumer',function($app){
+             return new Router($app, $app['request'], $app['router']);
+        });
     }
 
     public function boot()
     {
-        $this->app->singleton('apiconsumer', function(){
-            $app = app();
-
+        $this->app->singleton('apiconsumer', function($app){
             return new Router($app, $app['request'], $app['router']);
         });
     }
